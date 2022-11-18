@@ -104,6 +104,10 @@ a:focus {
   margin-right: 50px;
 }
 
+.nav-items .current {
+  color: var(--accent-color);
+}
+
 .nav-items .current::after {
   opacity: 1;
   transform: translateY(28px);
@@ -159,7 +163,7 @@ a:focus {
   color: var(--accent-color);
 }
 
-.solutions {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-dark-color);
@@ -172,7 +176,7 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
-.solutions-btn {
+.hero-btn {
   padding: 10px 32px;
   text-align: center;
   min-width: 216px;
@@ -183,7 +187,7 @@ a:focus {
   color: var(--white-color);
 }
 
-.solutions__title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -197,7 +201,7 @@ a:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.characteristic-item {
+.characteristic-list {
   display: flex;
 }
 .characteristic-text {
@@ -212,11 +216,11 @@ a:focus {
   color: var(--title-text-color);
 }
 
-.characteristic-items {
+.characteristic-item {
   max-width: 270px;
   margin-right: 30px;
 }
-.characteristic-items::before {
+.characteristic-item::before {
   display: block;
   content: "";
   height: 120px;
@@ -227,16 +231,16 @@ a:focus {
   background-position: center;
   margin-bottom: 30px;
 }
-.characteristic-items:last-child {
+.characteristic-item:last-child {
   margin-right: 0;
 }
-.characteristic-items--clock::before {
+.characteristic-item--clock::before {
   background-image: url(../images/clock.png);
 }
-.characteristic-items--diagram::before {
+.characteristic-item--diagram::before {
   background-image: url(../images/diagram.png);
 }
-.characteristic-items--astronaut::before {
+.characteristic-item--astronaut::before {
   background-image: url(../images/astronaut.png);
 }
 
@@ -267,11 +271,11 @@ img {
 .work {
   padding-bottom: 94px;
 }
-.work-item {
+.work-list {
   display: flex;
   gap: 30px;
 }
-.work-sign {
+.work-item {
   position: relative;
 }
 .work-signature {

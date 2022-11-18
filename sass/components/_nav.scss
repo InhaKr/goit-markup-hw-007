@@ -22,9 +22,9 @@
   margin-right: 50px;
 }
 
-// .nav-items .current {
-//   color: var(--accent-color);
-// }
+.nav-items .current {
+  color: var(--accent-color);
+}
 
 .nav-items .current::after {
   opacity: 1;
